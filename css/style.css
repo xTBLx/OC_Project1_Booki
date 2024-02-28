@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -56,6 +57,33 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+/****** Header ******/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    max-width: 60px;
+    padding: 30px 0px 30px 0px;
+}
+
+nav {
+    display: flex;
+    gap: 70px;
+}
+
+nav label {
+    padding-top: 20px;
+}
+
+nav label:hover {
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+    padding-top: 18px;
 }
 
 /****** Hebergements And Populaires ***********/
