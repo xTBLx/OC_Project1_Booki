@@ -22,7 +22,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0 2.5rem;
     box-sizing: border-box;
 }
 
@@ -31,9 +31,17 @@ a {
     text-decoration: none;
 }
 
-h2 {
+h1, h2 {
     margin: 0;
     font-size: 22px;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+.infos, .hebergements-and-populaires, .activites {
+    margin-top: 2rem;
 }
 
 .card {
@@ -57,6 +65,12 @@ h2 {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+
+::placeholder {
+    color: #F2F2F2;
+    opacity: 1;
 }
 
 /****** Header ******/
@@ -84,6 +98,59 @@ nav label:hover {
     color: #0065FC;
     border-top: 2px #0065FC solid;
     padding-top: 1rem;
+}
+
+/****** Infos ******/
+
+.searchBar {
+    display: flex;
+    margin: auto;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.fa-location-dot, .searchBar form, .searchBar label, .fa-magnifying-glass {
+    padding: 0 16px;
+    display: flex;
+}
+
+.searchBar i, .searchBar label {
+    align-items: center;
+}
+
+.searchBar form {
+    padding: 0;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+}
+
+.searchBar label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.searchBar input {
+    text-align: center;
+    border: 0;
+    width: 200px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.fa-location-dot {
+    color: #000000;
+    background-color: #F2F2F2;
+    border-radius: 16px 0 0 16px;
+}
+
+.fa-magnifying-glass, .searchBar label {
+    color: #FFFFFF;
+    background-color: #0065FC;
+    border-radius: 0 16px 16px 0;
+}
+
+.fa-magnifying-glass {
+    display: none;
 }
 
 /****** Hebergements And Populaires ***********/
