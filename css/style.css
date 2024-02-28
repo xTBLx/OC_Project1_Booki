@@ -36,6 +36,16 @@ h1, h2 {
     font-size: 22px;
 }
 
+h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 17px;
+    margin: 0px;
+}
+
 p {
     margin: 0.5rem 0;
 }
@@ -102,6 +112,24 @@ nav label:hover {
 
 /****** Infos ******/
 
+#infoLogement {
+    margin-top: 2rem;
+}
+
+#infoLogement i {
+    margin-right: 0.5rem;
+    border: #D9D9D9 2px solid;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    vertical-align: middle;
+    padding: 0.25rem;
+}
+
+    /****** SearchBar ******/
+
 .searchBar {
     display: flex;
     margin: auto;
@@ -143,14 +171,54 @@ nav label:hover {
     border-radius: 16px 0 0 16px;
 }
 
-.fa-magnifying-glass, .searchBar label {
+.searchBar label {
     color: #FFFFFF;
     background-color: #0065FC;
     border-radius: 0 16px 16px 0;
 }
 
 .fa-magnifying-glass {
+    color: #FFFFFF;
+    background-color: #0065FC;
+    border-radius: 16px;
+    box-shadow: 0 4px 4px #BFBFBF;
     display: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+    /****** Filtres ******/
+
+.filter {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.buttonFilter {
+    display: flex;
+    gap: 1rem;
+}
+
+.buttonFilter .fa-solid {
+    font-size: 22px;
+    margin-right: 0.75rem;
+}
+
+.buttonFilter h4 {
+    width: fit-content;
+    padding: 0.75rem 1.5rem;
+    border: #D9D9D9 2px solid;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.buttonFilter h4:hover {
+    background-color: #DEEBFF;
 }
 
 /****** Hebergements And Populaires ***********/
