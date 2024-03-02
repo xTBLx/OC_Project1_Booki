@@ -1,5 +1,10 @@
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .filter {
+        flex-direction: column;
+        align-items: start;
+    }
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -17,17 +22,14 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        gap: 2rem;
     }
 
     .populaires-cards a {
-        width: 30%;
+        width: 33%;
     }
 
-    .populaires-cards .card-title {
-        font-size: 14px;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
+    .activitesCards img {
+        height: 200px;
     }
 }
