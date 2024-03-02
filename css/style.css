@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 0;
+    max-width: 1440px;
 }
 
 .main-container {
@@ -203,6 +204,11 @@ input:focus {
     gap: 1rem;
 }
 
+.buttonFilterRow {
+    display: flex;
+    gap: 1rem;
+}
+
 .buttonFilter .fa-solid {
     font-size: 22px;
     margin-right: 0.75rem;
@@ -221,7 +227,7 @@ input:focus {
     background-color: #DEEBFF;
 }
 
-/****** Hebergements And Populaires ***********/
+/****** Sections ***********/
 
 .hebergements-and-populaires {
     display: flex;
@@ -409,50 +415,4 @@ ul {
 
 .inter {
     margin-bottom: 1rem;
-}
-
-
-
-
-
-/* Le code ci-dessous correspond à la version responsive uniquement */
-
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
-    .hebergements-and-populaires {
-        flex-direction: column;
-    }
-
-    .hebergements {
-        width: 100%;
-    }
-
-    .populaires {
-        width: 100%;
-        margin-top: 50px;
-    }
-
-    .populaires-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .populaires-cards a {
-        width: 30%;
-    }
-
-    .populaires-cards .card-title {
-        font-size: 14px;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
-    }
-}
-
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
 }
