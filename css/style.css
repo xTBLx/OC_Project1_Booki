@@ -221,7 +221,7 @@ input:focus {
     background-color: #DEEBFF;
 }
 
-/****** Hebergements And Populaires ***********/
+/****** Sections ***********/
 
 .hebergements-and-populaires {
     display: flex;
@@ -268,7 +268,6 @@ input:focus {
     height: 124px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
-    object-fit: cover;
 }
 
 .hebergementsCards .card-content {
@@ -339,6 +338,16 @@ input:focus {
 .populaires-cards .card-rating {
     margin-bottom: 0.25rem;
 }
+
+    /******** Activités ********/
+
+
+
+
+
+
+
+
 
 
 
