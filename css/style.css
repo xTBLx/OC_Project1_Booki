@@ -346,17 +346,12 @@ input:focus {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2rem;
 }
     
 .activites h3 {
     margin-top: 2rem;
 }
 
-.activites a {
-    width: 100%;
-}
-    
 .activitesCards {
     display: flex;
     flex-direction: row;
@@ -392,6 +387,33 @@ input:focus {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+/******** Footer ********/
+
+footer {
+    background-color: #F2F2F2;
+    padding: 2rem;
+    margin-top: 4rem;
+    display: flex;
+}
+
+footer div {
+    width: 33%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 1rem 0 0 0;
+}
+
+.inter {
+    margin-bottom: 1rem;
+}
+
+
+
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
