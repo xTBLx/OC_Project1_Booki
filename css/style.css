@@ -340,8 +340,58 @@ input:focus {
     margin-bottom: 0.25rem;
 }
 
+    /******** Activités ********/
 
+.activites {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+    
+.activites h3 {
+    margin-top: 2rem;
+}
 
+.activites a {
+    width: 100%;
+}
+    
+.activitesCards {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+    
+.activitesCards .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0;
+}
+    
+.activitesCards img {
+    width: 100%;
+    height: 380px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    object-fit: cover;
+}
+    
+.activitesCards .card-content {
+    width: 100%;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+    
+.activitesCards .card-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
