@@ -50,8 +50,14 @@
         width: auto;
     }
 
+    .searchBar form {
+        width: 100%;
+    }
+
     .searchBar input {
-        width: fit-content;
+        width: 100%;
+        padding-left: 2rem;
+        text-align: start;
     }
 
     .searchBar label {

@@ -181,6 +181,10 @@ nav label:hover {
     border-radius: 0 16px 16px 0;
 }
 
+.searchBar ::placeholder {
+    color: #D9D9D9;
+}
+
 .fa-magnifying-glass {
     color: #FFFFFF;
     background-color: #0065FC;
@@ -228,6 +232,7 @@ input:focus {
 
 .buttonFilter h4:hover {
     background-color: #DEEBFF;
+    cursor: pointer;
 }
 
 /****** Sections ***********/
@@ -242,6 +247,11 @@ input:focus {
     border-radius: 16px;
     padding: 2rem;
     box-sizing: border-box;
+}
+
+#afficher-plus:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
     /****** Hebergements ***********/
@@ -415,6 +425,10 @@ ul {
     list-style-type: none;
     padding-left: 0;
     margin: 1rem 0 0 0;
+}
+
+li:hover {
+    color: #0065FC;
 }
 
 .inter {
