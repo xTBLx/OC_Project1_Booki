@@ -22,8 +22,8 @@
         <header>
             <img src="./images/logo/Booki.png" alt="Logo du site Booki">
             <nav>
-                <label>Hébergement</label>
-                <label>Activités</label>
+                <label><a href="#hebergements">Hébergement</a></label>
+                <label><a href="#activites">Activités</a></label>
             </nav>
         </header>
         
@@ -35,7 +35,7 @@
                 
                 <div class="searchBar">
                     <i class="fa-solid fa-location-dot"></i>
-                    <form method="get" action="">
+                    <form method="dialog" action="">
                         <input type="text" name="recherche" placeholder="Destination">
                     </form>
                     <label>Rechercher</label>
@@ -64,7 +64,7 @@
                 </div>
             </div>
 
-            <div class="hebergements-and-populaires">
+            <div class="hebergements-and-populaires" id="hebergements">
 
                 <section class="hebergements" id="fond">
                     <h2>Hébergements à Marseille</h2>
@@ -259,7 +259,7 @@
 
             </div>
 
-            <div class="activites">
+            <div class="activites" id="activites">
                 <h2>Activités à Marseille</h2>
                 <div class="activitesCards">
                     <article class="card">
